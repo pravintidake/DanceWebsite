@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@1,600&family=Teko&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    min-height: 80vh;
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    /* justify-content: center; */
+    margin: 10px 0px;
+}
+
+h1{
+    text-align: center;
+    margin: 12px 0px;
+    font-family: 'Alumni Sans', sans-serif;
+}
+
+#aboutsection {
+    background-color: #e7e9eb;
+    height: 285px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#aboutsection h3 {
+    text-align: center;
+    font-size: 2rem;
+    margin: 20px;
+    padding: 0px 70px;
+    color: #734b4b;
+    font-family: 'Alumni Sans';
+}
+
+.aboutcontent{
+    display: flex;
+    /* background-color: aliceblue; */
+    flex-direction: column;
+    align-items: center;  
+}
+
+.aboutcontent h3 {
+    text-align: center;
+    font-size: 1.7rem;
+    margin: 20px;
+    padding: 0px 70px;
+    font-family: 'Alumni Sans';
+    justify-content: center;
+}
+
+.aboutcontent p {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #264461;
+    font-family: 'teko';
+    margin: 10px 50px;
+    padding: 0px 150px;
+}

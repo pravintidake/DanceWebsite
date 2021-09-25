@@ -1,0 +1,30 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style
+    style
+      include ../static/style.css
+      include ../static/classinfo.css
+
+block content 
+    div.container
+        h1  Class Information
+        div.classinfo
+          p We are working in all 3 shifts.
+          p Morning shift: 7am-11am, Afternoon shift: 1pm-5pm and Evening shift: 7pm-11pm
+          p Eath shift contains more than 3 batches. and each batch contains 120 students.
+          p We have teaching different types of classes witch at different cost as follows.       
+          p Ballet dance : 10,000
+          p Tap dance : 12,000
+          p Jazz dance : 8,000
+          p Modern  dance : 13,000
+          p Lyrical dance : 11,000
+          p Hip Hop dance : 17,000
+          p Contemporary dance : 20,000
+          p Highland Dancing : 10,000
+          p Line Dancing : 7,000
+          p Irish Dancing : 14,500
+          p If you have join any of three you will get 30% discount, so hurry up & 
+            |#[a(href="/contact")  Contact Us]

@@ -1,0 +1,63 @@
+doctype html
+html
+  head
+    title Ashu Dance Acedemy 
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+        ul
+          div#logo
+            img(src="../static/img/dancelogo.png")
+            |#[a(href="/") ADA]
+
+          li #[a(href="/") Home]
+          li #[a(href="/") About]
+          li #[a(href="/") Services]
+          li #[a(href="/") Class Info]
+          li #[a(href="/") Contact Us]
+        
+    section#IntroSection 
+        div Welcome to Ashu's Dance Academy
+        div.small Eat Sleep Dance Repeat
+
+    section#MissionSection 
+        h2 Our Mission
+        div#carditems
+          div.card
+            h3 Dance Perfection
+            div.card-box
+              div.card-img
+                img(src="../static/img/card1.png")
+              div.card-content
+                p “Dance is your pulse, your heartbeat, your breathing. It’s the rhythm of your life. It’s the expression in time and movement, in happiness, joy, sadness and envy.” — Jacques d’Amboise, American ballet dancer and choreographer
+
+          div.card
+            h3 Dance the way you like
+            div.card-box
+              div.card-img
+                img(src="../static/img/card2.png")
+              div.card-content
+                p — “You have to love dancing to stick to it. It gives you nothing back, no manuscripts to store away, no paintings to show on walls and maybe hang in museums, no poems to be printed and sold, nothing but that fleeting moment when you feel alive. It is not for unsteady souls.” — Merce Cunningham, modern dance choreographer
+
+          div.card
+            h3 Expert Teaching
+            div.card-box
+              div.card-img
+                img(src="../static/img/card3.png")
+              div.card-content
+                p “The moment is everything. Don’t think about tomorrow; don’t think about yesterday: think about exactly what you’re doing right now and live it and dance it and breath it and be it.” — Wendy Whelan, American ballet dancer
+
+    section#SponsorSection 
+        h2 Our Sponsors
+        div#sponsors
+          img(src="/static/img/sponsor1.png", alt="Sponsor Image 1" class="sponsorImg")
+          img(src="/static/img/sponsor2.png", alt="Sponsor Image 2" class="sponsorImg")
+          img(src="/static/img/sponsor3.png", alt="Sponsor Image 3" class="sponsorImg")
+          img(src="/static/img/sponsor4.png", alt="Sponsor Image 4" class="sponsorImg")
+
+    footer#footer 
+        | Copyright © 2019 AshuDanceAcademy.com | All rights reserved
+
+    script
+      include ../static/index.js

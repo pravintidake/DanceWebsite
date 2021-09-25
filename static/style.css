@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@1,600&family=Teko&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0px 14px;
+    margin-right: 60px;
+    font-family: 'Monoton', cursive;
+}
+#logo a{
+    color: white;
+    text-decoration: none;
+}
+
+#logo a:hover{
+    color: #f3de9a;
+    cursor: pointer;
+}
+
+#logo img{
+    height: 30px;
+    filter: invert(1);
+}
+
+#navbar{
+    background-color: rgb(61, 4, 7);
+    padding: 13px 14px;
+    font-family: 'Teko', sans-serif;
+}
+#navbar ul{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+#navbar li{
+    list-style: none;
+}
+#navbar li a{
+    text-decoration: none;
+    padding: 13px 60px;
+    color: white;
+    font-size: 20px;
+}
+
+#navbar li a:hover{
+    text-decoration: none;
+    padding: 13px 60px;
+    color: #f3e9c9;
+    font-size: 20px;
+    background-color: rgba(223, 140, 140, 0.212);
+}
+
+#IntroSection{
+    background: center / cover no-repeat url("/static/bg.jpg");
+    height: 380px;
+    background-color: orange;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Alumni Sans', sans-serif;
+    font-size: 35px;
+}
+#IntroSection div.small{
+    font-size: 1.7rem;
+}
+
+#MissionSection {
+    height: auto;  
+    /* background-color: rgba(223, 140, 140, 0.678); */
+    width: 80%;
+    margin: auto;
+}
+
+#carditems{
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 33%;
+    height: auto;
+    margin: 25px 20px;
+    display: inline-block;
+}
+
+.card h3{
+    text-align: center;
+    padding: 12px;
+    font-family: 'Teko', sans-serif;
+    margin-top: 10px;
+}
+
+.card-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-img {
+    height: 101px;
+    padding: 0px 14px;
+    margin: 5px 9px;
+}
+
+.card-img img{
+    height: inherit;
+}
+
+.card-content {
+    padding: 15px 10px;
+    margin: 10px 0px;
+}
+
+.card-content p{
+    font-size: 20px;
+    font-family: 'Alumni Sans', sans-serif;
+}
+
+#MissionSection h2{
+    text-align: center;
+    color: black;
+    padding-top: 20px;
+    font-family: 'Alumni Sans', sans-serif;
+    font-size: 2rem;
+}
+
+#SponsorSection {
+    height: 260px;   
+    background-color: rgba(223, 140, 140, 0.678);
+}
+
+#SponsorSection h2{
+    text-align: center;
+    color: black;
+    padding-top: 20px;
+    font-family: 'Alumni Sans', sans-serif;
+    
+    font-size: 2rem;
+}
+
+#sponsors {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+}
+.sponsorImg {
+    height: 80%;
+    margin: 25px;
+    padding: 0px 40px;
+}
+
+#footer {
+    height: 60px;
+    background-color: #4b4754;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'Teko', sans-serif;
+}
+
