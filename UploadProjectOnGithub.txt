@@ -1,0 +1,61 @@
+1. Sign Up on Github website
+2. Create new Repository
+3. Download and Install Git in your pc
+4. Go to your project directory
+5. Open git bash terminal at project directory or coppy path to move using cd command in gitbash
+6. now use this commands
+    git config --global user.name "Your name"
+    git config --global user.email "Your email"
+7. To ignore some folders or files make a file calles gitinore using following command
+    touce .gitinore
+And add file or folder name in .gitinore file to ignore the files for example : node_modules/
+8. Initialise the project
+    git init
+9. Add all the content in the staging area
+    git add .
+10. Commit for any updates in project
+    git commit -m "Commit name"
+11. For Get Repository status use following command
+    git status
+12. Go to Your Repository and click on ssh instead of http and coppy link and add to the following command
+    git remote add origin 'Your ssh link'
+13. For push request use following command
+    git push origin master
+But is show error because it ask for the authentication
+14. For authentication go to setting of your profile-->ssh & gpg keys-->Click on new ssh keys
+15.Generate ssh keys using command
+     ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+And save it using enter enter button now your key will Generate
+you can see this message
+    Generating public/private rsa key pair.
+    Enter file in which to save the key (/c/Users/Shree/.ssh/id_rsa):
+    Created directory '/c/Users/Shree/.ssh'.
+    Enter passphrase (empty for no passphrase):
+    Enter same passphrase again:
+    Your identification has been saved in /c/Users/Shree/.ssh/id_rsa
+    Your public key has been saved in /c/Users/Shree/.ssh/id_rsa.pub
+    The key fingerprint is:
+    SHA256:0PM1rpWjZvvBK8oumqFQFQqyj8zuWwKriFGQpVCWQxE ashiravadtidake.com
+    The key's randomart image is:
+    +---[RSA 4096]----+
+    |+oE+.            |
+    |oBo. . .         |
+    |= ... . o   o    |
+    |o+ .   . o o o   |
+    |oo+     S . =    |
+    |o+         = .   |
+    |+o ..     = o    |
+    |=oo. o.. o.. o   |
+    |+oo o. o+..oo    |
+    +----[SHA256]-----+
+16. Now coppy this path from this message  'Your public key has been saved in /c/Users/Shree/.ssh/id_rsa.pub'
+and paste in the following command
+    cat /c/Users/Shree/.ssh/id_rsa.pub
+    like this...
+    Now you will see the whole ssh key now coppy this whole key and add in the section of key in github
+    and generate key using step 14.
+17. Now again send push request use following command
+    git push origin master
+Now it will successfully push your project at your repository. and you can see the reflected changes at your repository.
+
+
