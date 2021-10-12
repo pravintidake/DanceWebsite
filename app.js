@@ -4,7 +4,8 @@ const fs = require('fs');
 const mongoose = require('mongoose');
 const bodyparser = require('body-parser'); //Use to store data if you using express by post request.
 const app = express();
-const port = 3000;
+const dotenv = require('dotenv').config();
+const port = process.env.PORT || 3000;
 
 //Connect to the database
 main().catch(err => console.log(err));
