@@ -45,14 +45,14 @@
 }
 #navbar li a{
     text-decoration: none;
-    padding: 13px 60px;
+    padding: 13px 40px;
     color: white;
     font-size: 20px;
 }
 
 #navbar li a:hover{
     text-decoration: none;
-    padding: 13px 60px;
+    padding: 13px 40px;
     color: #f3e9c9;
     font-size: 20px;
     background-color: rgba(223, 140, 140, 0.212);
@@ -172,3 +172,19 @@
     font-family: 'Teko', sans-serif;
 }
 
+@media screen and (max-width: 1000px) {
+    .card-content p{
+        font-size: 13px;
+    }
+
+    .card-img {
+        height: 80px;
+        padding: 0px 10px;
+        margin: 10px 0px;
+    }
+
+    #footer {
+        height: 45px;
+        font-size: 15px;
+    }
+  }

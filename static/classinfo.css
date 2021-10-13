@@ -48,3 +48,25 @@ h1{
     text-decoration: none;
     color:#b44a0c;
 }
+
+@media screen and (max-width: 1000px) {
+    
+    .classinfo {
+        display: inline;
+    }
+
+    .classinfo h3{
+      font-size: 1.3rem;
+    }
+
+    .classinfo p {
+        font-size: 1rem;
+        margin: 0px 40px;
+        padding: 0px 50px;
+    }
+
+    #footer {
+        height: 45px;
+        font-size: 15px;
+    }
+}
