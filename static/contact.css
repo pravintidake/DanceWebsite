@@ -59,6 +59,13 @@ h1{
 }
 
 @media screen and (max-width: 1000px) {
+    .container {
+        min-height: 93vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
     #footer {
         height: 45px;
         font-size: 15px;
