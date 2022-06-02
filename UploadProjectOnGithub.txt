@@ -2,7 +2,7 @@
 2. Create new Repository
 3. Download and Install Git in your pc
 4. Go to your project directory
-5. Open git bash terminal at project directory or coppy path to move using cd command in gitbash
+5. Open git bash terminal at project directory or copy path to move using cd command in gitbash
 6. now use this commands
     git config --global user.name "Your name"
     git config --global user.email "Your email"
